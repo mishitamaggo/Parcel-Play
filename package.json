@@ -4,8 +4,7 @@
   "description": "Parcel Play - Custom Packaging Design & Material Studio India",
   "type": "module",
   "scripts": {
-    "dev": "node dev-server.js",
-    "start": "node dev-server.js"
+    "dev": "node dev-server.js"
   },
   "keywords": ["packaging", "design", "studio", "india"],
   "author": "Parcel Play",
