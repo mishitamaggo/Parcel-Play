@@ -3,11 +3,9 @@
   "version": "3.0.0",
   "description": "Parcel Play - Custom Packaging Design & Material Studio India",
   "type": "module",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js",
-    "build": "echo 'No build step needed for vanilla static app'"
+    "dev": "node dev-server.js",
+    "start": "node dev-server.js"
   },
   "keywords": ["packaging", "design", "studio", "india"],
   "author": "Parcel Play",
