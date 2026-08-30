@@ -29,10 +29,13 @@ export class Router {
   }
 
   normalizePath(path) {
-    let clean = path;
+    let clean = path || '/';
     if (clean.startsWith('#/')) clean = clean.substring(1);
     else if (clean.startsWith('#')) clean = '/' + clean.substring(1);
     if (!clean.startsWith('/')) clean = '/' + clean;
+    if (clean.endsWith('/index.html') || clean.endsWith('/404.html')) {
+      clean = clean.replace(/\/index\.html$|\/404\.html$/, '') || '/';
+    }
     if (clean.length > 1 && clean.endsWith('/')) clean = clean.slice(0, -1);
     return clean;
   }
@@ -63,6 +66,16 @@ export class Router {
     // Check direct match
     let routeHandler = this.routes[path];
     let routeParams = null;
+
+    // Check if path ends with a known route (handles GitHub Pages repo subdirectories e.g. /Parcel-Play/case-studies)
+    if (!routeHandler && path !== '/') {
+      for (const routeKey in this.routes) {
+        if (routeKey !== '/' && !routeKey.includes(':') && path.endsWith(routeKey)) {
+          routeHandler = this.routes[routeKey];
+          break;
+        }
+      }
+    }
 
     // Check dynamic pattern match (e.g., /sku/:slug)
     if (!routeHandler) {
