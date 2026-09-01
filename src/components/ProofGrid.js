@@ -2,7 +2,7 @@ import { CASE_STUDIES } from '../data/mockData.js?v=2.0';
 import { tactileAudio } from '../utils/audio.js?v=2.0';
 
 export function renderProofGrid(container) {
-  const categories = ['All', 'Rigid Boxes', 'Corrugated Mailers', 'Molded Pulp & Trays', 'Foil Tape & Bands'];
+  const categories = ['All', 'Kinetic & Bloom', 'Plantable Eco-Luxury', 'Bridal & Festive Trousseau', 'Rigid Boxes', 'Corrugated Mailers', 'Molded Pulp & Trays', 'Foil Tape & Bands'];
   let currentFilter = 'All';
 
   function getFilteredProjects() {

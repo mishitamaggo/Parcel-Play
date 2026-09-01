@@ -6,35 +6,7 @@ export function renderHeader(container, state) {
       <div class="container header-inner">
         <!-- Logo -->
         <a href="#/" class="brand-logo" id="header-logo-btn">
-          <div class="logo-mark-wrap">
-            <svg class="logo-mark-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M50 12 L85 30 L85 70 L50 88 L15 70 L15 30 Z" fill="#1C1E24" stroke="#121316" stroke-width="4" stroke-linejoin="round"/>
-              <path d="M50 16 L80 32 L50 48 L20 32 Z" fill="#E4E6EB" stroke="#1C1E24" stroke-width="2.5"/>
-              <path d="M50 48 L80 32 L80 66 L50 82 Z" fill="#D2D5DC" stroke="#1C1E24" stroke-width="2.5"/>
-              <path d="M20 32 L50 48 L50 82 L20 66 Z" fill="#262A34" stroke="#1C1E24" stroke-width="2.5"/>
-              <path d="M63 23 L74 29 L46 44 L35 38 Z" fill="url(#copperTapeGrad)" stroke="#9C5535" stroke-width="1"/>
-              <path d="M74 29 L74 38 L50 51 L50 42 Z" fill="url(#copperTapeSideGrad)" opacity="0.9"/>
-              <path d="M22 28 L48 28 C58 28 64 34 64 42 C64 50 58 56 48 56 L35 56 L35 76 L22 76 Z" fill="none" stroke="#121316" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M22 28 L48 28 C58 28 64 34 64 42 C64 50 58 56 48 56 L35 56 L35 76 L22 76 Z" fill="none" stroke="#E2E5EB" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <defs>
-                <linearGradient id="copperTapeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stop-color="#9C5535"/>
-                  <stop offset="35%" stop-color="#E29E7A"/>
-                  <stop offset="60%" stop-color="#FFFFFF"/>
-                  <stop offset="70%" stop-color="#C26338"/>
-                  <stop offset="100%" stop-color="#844528"/>
-                </linearGradient>
-                <linearGradient id="copperTapeSideGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stop-color="#844528"/>
-                  <stop offset="100%" stop-color="#C26338"/>
-                </linearGradient>
-              </defs>
-            </svg>
-          </div>
-          <div class="brand-text">
-            <span class="brand-name">Parcel Play <span style="font-size: 0.75rem; font-weight: 600; color: var(--accent-copper);">.in</span></span>
-            <span class="brand-tagline">Packaging & Material Studio India</span>
-          </div>
+          <span class="brand-name">Parcel Play</span>
         </a>
 
         <!-- Navigation Links -->

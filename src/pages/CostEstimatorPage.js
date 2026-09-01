@@ -1,30 +1,36 @@
 import { tactileAudio } from '../utils/audio.js?v=2.0';
 
 export function renderCostEstimatorPage(container, onOrderQuote) {
-  let currentFormat = 'rigid-magnetic';
-  let currentSubstrate = 'obsidian-450';
-  let currentFinishes = ['copper-foil'];
-  let quantity = 2500;
+  let currentFormat = 'kinetic-lotus';
+  let currentSubstrate = 'amethyst-velvet';
+  let currentFinishes = ['champagne-foil'];
+  let quantity = 1000;
 
   const FORMATS = [
+    { id: 'kinetic-lotus', name: 'Kinetic Lotus Bloom Sphere', base: 640.00, minMoq: 300, time: '16-20 Days', desc: '8-Axis articulating petals + suspended jewel vitrine' },
+    { id: 'plantable-seed', name: 'Plantable Wildflower Vitrine', base: 165.00, minMoq: 500, time: '10-14 Days', desc: 'Deckle seed cylinder + crystal acrylic display' },
+    { id: 'couture-trousseau', name: 'Royal Bridal Trousseau Hamper', base: 1450.00, minMoq: 50, time: '14-18 Days', desc: 'Champagne tulle tray + couture lehenga mannequin' },
     { id: 'rigid-magnetic', name: 'Rigid Magnetic Box', base: 285.00, minMoq: 500, time: '12-16 Days', desc: '1400gsm Indian Kappa board + hidden magnet' },
-    { id: 'corrugated-mailer', name: 'Fluted Kraft Mailer', base: 78.00, minMoq: 500, time: '8-12 Days', desc: 'E-flute micro corrugated + dual tear strip' },
     { id: 'slide-drawer', name: 'Slide-Drawer Box', base: 245.00, minMoq: 500, time: '12-16 Days', desc: 'Outer sleeve + grosgrain ribbon pull drawer' },
-    { id: 'molded-pulp', name: 'Molded Cellulose Tray', base: 125.00, minMoq: 1000, time: '14-18 Days', desc: 'Zero-plastic molded sugarcane & bamboo' }
+    { id: 'corrugated-mailer', name: 'Fluted Kraft Mailer', base: 78.00, minMoq: 500, time: '8-12 Days', desc: 'E-flute micro corrugated + dual tear strip' }
   ];
 
   const SUBSTRATES = [
+    { id: 'amethyst-velvet', name: 'Amethyst Velvet Composite (3.2mm)', priceMod: 85.00, desc: 'Sculpted matte plum' },
+    { id: 'wildflower-seed', name: 'Wildflower Seed Cotton (320 GSM)', priceMod: 35.00, desc: '100% Plantable paper' },
+    { id: 'banarasi-brocade', name: 'Banarasi Gold Brocade & Tulle', priceMod: 180.00, desc: 'Pure Zari heritage silk' },
     { id: 'obsidian-450', name: 'Obsidian Velvet Board (450 GSM)', priceMod: 38.00, desc: 'Anti-scuff matte finish' },
     { id: 'virgin-cotton-600', name: 'Virgin Cotton Uncoated (600 GSM)', priceMod: 48.00, desc: 'High deboss depth' },
-    { id: 'raw-kraft-350', name: 'Raw Unbleached Kraft (350 GSM)', priceMod: 18.00, desc: 'Organic strength' },
     { id: 'linen-cloth-380', name: 'Forest Sage Linen (380 GSM)', priceMod: 58.00, desc: 'Woven organic textile' }
   ];
 
   const FINISH_OPTIONS = [
+    { id: 'champagne-foil', name: 'Champagne Gold Foil Stamping', cost: 38.00 },
+    { id: 'mini-mannequin', name: 'Miniature Bridal Lehenga Mannequin', cost: 380.00 },
+    { id: 'acrylic-vitrine', name: 'Optical Acrylic Gemstone Vitrine', cost: 45.00 },
+    { id: 'banarasi-potli', name: 'Banarasi Zari Potli with Pearls', cost: 95.00 },
     { id: 'copper-foil', name: 'Hot Stamped Copper Foil', cost: 28.00 },
-    { id: 'blind-deboss', name: 'Deep Blind Deboss (0.8mm)', cost: 22.00 },
-    { id: 'interior-flood', name: 'Interior Soy Flood Print', cost: 18.00 },
-    { id: 'foil-tape', name: 'Reinforced Foil Sealing Tape', cost: 24.00 }
+    { id: 'blind-deboss', name: 'Deep Blind Deboss (0.8mm)', cost: 22.00 }
   ];
 
   function formatIndianCurrency(num) {

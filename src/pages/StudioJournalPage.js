@@ -3,7 +3,7 @@ import { tactileAudio } from '../utils/audio.js?v=2.0';
 
 export function renderStudioJournalPage(container, onReadArticle) {
   let currentCategory = 'All';
-  const categories = ['All', 'Design Strategy', 'Production & Logistics', 'Sustainable Materials'];
+  const categories = ['All', 'Kinetic Engineering', 'Sustainable Innovation', 'Bridal & Royal Gifting', 'Design Strategy', 'Production & Logistics', 'Sustainable Materials'];
 
   function getFilteredArticles() {
     if (currentCategory === 'All') return JOURNAL_ARTICLES;

@@ -1,5 +1,80 @@
 export const CASE_STUDIES = [
   {
+    id: 'aura-kinetic-lotus',
+    title: 'Aura Kinetic Lotus Bloom',
+    category: 'Kinetic & Bloom',
+    subtitle: 'Geometric Lotus Reveal Sphere with Floating Fine Jewelry Vitrine',
+    client: 'Aura High Jewelry & Haute Horlogerie (Mumbai & Geneva)',
+    image: 'assets/images/aura_lotus_bloom.jpg',
+    macroImage: 'assets/images/aura_lotus_bloom.jpg',
+    description: 'A sculptural spherical presentation box engineered with articulating interlocking lotus petals that blossom open radially when twisted, lifting and suspending a diamond necklace in an architectural translucent vitrine.',
+    metrics: [
+      { label: 'Viral Unboxing Views', value: '2.4M+' },
+      { label: 'Social Save Rate', value: '94%' },
+      { label: 'AOV Lift', value: '+₹24,000' }
+    ],
+    specs: {
+      substrate: 'Sculpted Amethyst Velvet Composite + Translucent Tension Scrim',
+      finish: 'Concentric Resonance Line Engraving + Warm Rose Gold Accents',
+      closure: 'Kinetic Radial Petal Blossom with Magnetic Damped Stop',
+      dimensions: '110 mm Diameter Sphere',
+      moq: '300 units',
+      sustainability: '100% Reusable Keepsake Jewel Case'
+    },
+    quote: '"The blooming kinetic lotus turned our diamond unveil into an unforgettable heirloom ceremony. It became the centerpiece of our clients\' vanity tables."',
+    author: 'Gayatri Singhal, Creative Director'
+  },
+  {
+    id: 'aura-plantable-wildflower',
+    title: 'Aura Botanical Seed-Paper Vitrine',
+    category: 'Plantable Eco-Luxury',
+    subtitle: 'Hand-Embossed Seeded Cylinder with Ultra-Clear Gemstone Vitrine',
+    client: 'Aura Earth & Minerals (Jaipur & Bengaluru)',
+    image: 'assets/images/aura_plantable_wildflower.jpg',
+    macroImage: 'assets/images/aura_plantable_wildflower.jpg',
+    description: 'A zero-waste living packaging ritual featuring a handcrafted cotton seed-paper cylinder embedded with native wildflower seeds, blind-embossed with Aura branding. Tears open to reveal an ultra-clear minimal vitrine holding raw gemstone jewelry, while the outer cylinder is planted into soil to sprout blooming wildflowers.',
+    metrics: [
+      { label: 'Zero-Waste Rebirth', value: '100% Plantable' },
+      { label: 'Customer Delight Index', value: '99.4%' },
+      { label: 'Organic Germination Rate', value: '88% Bloom' }
+    ],
+    specs: {
+      substrate: 'Handcrafted Deckle-Edge Cotton Paper embedded with Wildflower Seeds + Acrylic Vitrine',
+      finish: 'Tactile Deep Blind Deboss ("Aura") + Deckle Edge Tear Line',
+      closure: 'Tear-to-Reveal Seed Sleeve with Jute Seed Tag',
+      dimensions: '85 mm Diameter × 115 mm Height',
+      moq: '500 units',
+      sustainability: '100% Home Plantable, Zero Landfill Waste'
+    },
+    quote: '"Our customers love planting their packaging in their home gardens. Seeing real wildflowers sprout from our jewelry box connects them forever with our botanical philosophy."',
+    author: 'Tara Deshmukh, Head of Sustainability'
+  },
+  {
+    id: 'royal-maharani-trousseau',
+    title: 'The Royal Maharani Bridal Trousseau',
+    category: 'Bridal & Festive Trousseau',
+    subtitle: 'Dusty Rose & Champagne Shimmer Tulle Hamper with Miniature Lehenga Centerpiece',
+    client: 'Maharani Haute Couture & Royal Gifting (Udaipur & New Delhi)',
+    image: 'assets/images/royal_maharani_hamper.jpg',
+    macroImage: 'assets/images/royal_maharani_hamper.jpg',
+    description: 'An opulent royal wedding trousseau hamper presentation tray draped in champagne micro-glitter tulle and rose satin bow, featuring a handcrafted miniature haute couture bridal lehenga gown mannequin centerpiece, a velvet diamond jewelry suite on golden silk bolster, a 16-cavity praline box, Banarasi Zari potli, and blush rose keepsake tea caddies.',
+    metrics: [
+      { label: 'VIP Wedding Satisfaction', value: '100%' },
+      { label: 'Instagram Story Tags', value: '6.8x Lift' },
+      { label: 'Hamper Keepsake Rate', value: '98%' }
+    ],
+    specs: {
+      substrate: '1800 GSM Heavy Rigid Kappa Base + Micro-Glitter Tulle Wrap',
+      finish: 'Champagne Gold Foil + Pure Banarasi Brocade + Rose Gold Satin Ribbon',
+      closure: 'Ceremonial Draped Tulle Veil with Hand-Tied Satin Rosette',
+      dimensions: '520 × 380 × 160 mm',
+      moq: '50 hampers',
+      sustainability: '100% Heirloom Keepsake Construction'
+    },
+    quote: '"The miniature lehenga mannequin centerpiece took our destination wedding gifting to royal heights. Every guest was mesmerized by the sheer artistry and attention to detail."',
+    author: 'Devanshi & Kabir Roy, Jaipur Destination Wedding'
+  },
+  {
     id: 'aurelia-parfum',
     title: 'Aurelia Parfumerie',
     category: 'Rigid Boxes',
@@ -128,6 +203,51 @@ export const CASE_STUDIES = [
 
 export const MATERIAL_SWATCHES = [
   {
+    id: 'amethyst-velvet-composite',
+    name: 'Amethyst Velvet Composite',
+    category: 'Sculpted Resins & Composites',
+    weight: '3.2mm Wall',
+    finish: 'Matte Plum Velvet Soft-Touch with Metallic Micro-Sheen',
+    colorHex: '#3D214F',
+    textureImage: 'assets/images/aura_lotus_bloom.jpg',
+    foilSuitability: 'Rose Gold, Champagne Gold, Debossed Resonance Lines',
+    tactileFeel: 'Silky, cool-to-touch sculptural matte finish with jewel-tone depth and acoustic damping.',
+    ecoIndex: 'High-Durability Heirloom Composite',
+    moq: '300 units',
+    bestFor: 'Kinetic Lotus Spheres, High Jewelry, Watch Presentation',
+    reflectionType: 'gold'
+  },
+  {
+    id: 'wildflower-seed-cotton',
+    name: 'Wildflower Seed-Embedded Cotton',
+    category: 'Botanical & Living Papers',
+    weight: '320 GSM',
+    finish: 'Raw Deckle-Edge Handcrafted Fibrous Pulp',
+    colorHex: '#F2EFEB',
+    textureImage: 'assets/images/aura_plantable_wildflower.jpg',
+    foilSuitability: 'Deep Blind Deboss, Soy Inks, Deckle Tearing',
+    tactileFeel: 'Textured, natural organic cotton rag with visible botanical seed inclusions that sprout in soil.',
+    ecoIndex: '100% Tree-Free, 100% Plantable into Wildflowers',
+    moq: '500 units',
+    bestFor: 'Plantable Sleeves, Botanical Tags, Eco-Jewelry Vitrines',
+    reflectionType: 'matte'
+  },
+  {
+    id: 'banarasi-gold-brocade',
+    name: 'Banarasi Gold Brocade & Tulle',
+    category: 'Textiles & Couture Trims',
+    weight: '420 GSM',
+    finish: 'Pure Banarasi Zari Silk with Micro-Glitter Tulle',
+    colorHex: '#D4AF37',
+    textureImage: 'assets/images/royal_maharani_hamper.jpg',
+    foilSuitability: 'Zari Weaving, Gold Gota Foil, Silk Embroidery',
+    tactileFeel: 'Glistening gold thread texture paired with feather-light sparkling tulle and satin ribbons.',
+    ecoIndex: 'Artisanal Handloom Indian Heritage Silk',
+    moq: '50 units',
+    bestFor: 'Bridal Trousseau Hampers, Festive Keepsake Trays, VIP Gift Sets',
+    reflectionType: 'gold'
+  },
+  {
     id: 'obsidian-soft-touch',
     name: 'Obsidian Velvet Board',
     category: 'Paperboard',
@@ -156,6 +276,21 @@ export const MATERIAL_SWATCHES = [
     moq: '250 units',
     bestFor: 'Brand Cards, Belly Bands, Hang Tags',
     reflectionType: 'matte'
+  },
+  {
+    id: 'blush-rose-tinplate',
+    name: 'Blush Rose Satin Tinplate',
+    category: 'Luxury Canisters & Metal',
+    weight: '0.28mm Gauge',
+    finish: 'Brushed Rose Gold Satin Anodized',
+    colorHex: '#D8A5A5',
+    textureImage: 'assets/images/royal_maharani_hamper.jpg',
+    foilSuitability: 'Embossed Metal Lid, Silk Screen, Custom Label',
+    tactileFeel: 'Silky smooth metallic cylinder with airtight friction closure.',
+    ecoIndex: '100% Infinitely Recyclable Metal',
+    moq: '250 units',
+    bestFor: 'Artisanal Teas, Scented Keepsakes, Royal Hamper Caddies',
+    reflectionType: 'copper'
   },
   {
     id: 'raw-kraft-flute',
@@ -220,6 +355,76 @@ export const MATERIAL_SWATCHES = [
 ];
 
 export const JOURNAL_ARTICLES = [
+  {
+    id: 'kinetic-unboxing-phenomenon',
+    title: 'The Kinetic Unboxing Phenomenon: Why Mechanical Bloom Packaging Captivates Luxury Consumers',
+    subtitle: 'How Articulating Geometry and Delayed Reveal Pacing Multiply Perceived Value',
+    readTime: '5 min read',
+    date: 'September 2026',
+    category: 'Kinetic Engineering',
+    image: 'assets/images/aura_lotus_bloom.jpg',
+    excerpt: 'When a packaging structure opens mechanically—like blossoming lotus petals—the unboxing shifts from opening a package to witnessing a theatrical ceremony.',
+    keyStats: [
+      { stat: '94%', label: 'Of luxury consumers keep kinetic bloom boxes permanently on display' },
+      { stat: '6.2x', label: 'Higher social video completion rate on TikTok & Instagram Reels' },
+      { stat: '+₹18k', label: 'Average perceived price increment attributed to bespoke reveal mechanics' }
+    ],
+    content: `
+      <h3>The Geometry of Delayed Gratification</h3>
+      <p>In high jewelry and haute horlogerie, the transaction is intensely emotional. The moment a client receives an iconic piece, standard rectangular packaging often fails to match the sacred wonder of the jewelry itself.</p>
+      
+      <p>The <strong>Kinetic Lotus Bloom</strong> was engineered to introduce mechanical theatre into unboxing. By translating a twisting motion into radial petal expansion, the box acts as a blossoming mechanical lotus that raises the suspended jewelry into the light.</p>
+
+      <blockquote>"When packaging moves with acoustic dampening and weighted tactile tension, it transforms a commodity into an heirloom ritual."</blockquote>
+
+      <h3>Precision CAD Engineering</h3>
+      <p>Each petal quadrant is calibrated with micro-milled tension pivots and concealed magnets. As the outer sphere rotates, the inner crystal suspension membrane tilts upward, positioning the gemstones at an optimal 45-degree angle to catch ambient ambient lighting.</p>
+    `
+  },
+  {
+    id: 'plantable-seed-packaging-d2c',
+    title: 'From Packaging to Petals: The Science of Germinating Seed Paper in D2C Delivery',
+    subtitle: 'How Handcrafted Cotton Rag Embedded with Wildflower Seeds Creates Lasting Brand Memory',
+    readTime: '4 min read',
+    date: 'August 2026',
+    category: 'Sustainable Innovation',
+    image: 'assets/images/aura_plantable_wildflower.jpg',
+    excerpt: 'Instead of discarding shipping wraps into landfills, modern eco-conscious consumers plant their packaging into windowsill pots, nurturing brand-planted wildflowers for months.',
+    keyStats: [
+      { stat: '88%', label: 'Sprout germination success rate across indoor Indian potting soils' },
+      { stat: '0.0g', label: 'Landfill waste generated from seed-embedded botanical cylinders' },
+      { stat: '4.8x', label: 'Higher post-purchase social sharing as customers post flower sprout progress' }
+    ],
+    content: `
+      <h3>Reinventing the Post-Unboxing Ritual</h3>
+      <p>Traditional e-commerce packaging creates guilt: within thirty seconds of opening, bubble wraps and laminated paperboard are headed for the municipal bin. Seed-embedded botanical packaging turns this on its head.</p>
+      
+      <p>Our <strong>Aura Botanical Seed-Paper</strong> is hand-pulped from post-industrial cotton rag in Jaipur and infused with native non-invasive wildflower seeds (Cosmos, Marigold, Coreopsis). The consumer tears away the deckle-edged sleeve, unveils the optical crystal jewelry vitrine, and plants the seeded wrap directly into potting soil.</p>
+
+      <blockquote>"Your packaging doesn’t die in a trash heap—it blooms into flowers on your customer’s balcony for months."</blockquote>
+    `
+  },
+  {
+    id: 'haute-couture-bridal-trousseau',
+    title: 'Haute Couture Gifting: Curating Indian Bridal Trousseaux for the Modern Royal Wedding',
+    subtitle: 'Architecting Grand Scale Keepsake Presentation Trays with Miniature Mannequins & Banarasi Brocade',
+    readTime: '6 min read',
+    date: 'August 2026',
+    category: 'Bridal & Royal Gifting',
+    image: 'assets/images/royal_maharani_hamper.jpg',
+    excerpt: 'Destination Indian weddings demand gifting suites that match the opulence of couture lehengas. Here is how structural artisans engineer heirloom trousseau hampers.',
+    keyStats: [
+      { stat: '100%', label: 'Keepsake preservation rate for bespoke bridal trousseau trays' },
+      { stat: '1800 GSM', label: 'Rigid base strength engineered to support multi-tier gifting elements' },
+      { stat: '14 Days', label: 'Artisanal hand-assembly and draping turnaround per royal suite' }
+    ],
+    content: `
+      <h3>The Ceremonial Weight of Indian Wedding Hampers</h3>
+      <p>In destination Indian weddings across Udaipur, Jaipur, and Goa, the trousseau hamper is the grand physical statement of hospitality. It bridges ancestral royal tradition with contemporary haute couture aesthetics.</p>
+      
+      <p>The <strong>Royal Maharani Hamper</strong> features a custom-draped miniature bridal lehenga mannequin as its sculptural anchor, flanked by velvet diamond bolsters, 16-cavity gold leaf confection trays, pure Banarasi zari potlis, and brushed rose gold canisters nestled on golden kraft shredding.</p>
+    `
+  },
   {
     id: 'unboxing-retention-psychology',
     title: 'How Unboxing Quality Influences Customer Retention in Indian D2C',
@@ -290,6 +495,130 @@ export const JOURNAL_ARTICLES = [
 
 export const SKU_PRODUCTS = [
   {
+    id: 'sku-kinetic-lotus',
+    slug: 'kinetic-lotus-spheres',
+    name: 'Kinetic Lotus Bloom Spheres',
+    headline: 'Articulating geometric petal reveal box with suspended jewelry display',
+    tag: 'Kinetic Masterpiece',
+    basePrice: 640.00,
+    unitLabel: 'per sphere',
+    leadTime: '16–20 Days',
+    moq: 300,
+    heroImage: 'assets/images/aura_lotus_bloom.jpg',
+    macroImage: 'assets/images/aura_lotus_bloom.jpg',
+    desc: 'A breathtaking sculptural sphere engineered with interlocking lotus-petal panels that glide open mechanically when twisted or pulled, lifting fine jewelry into a suspended translucent vitrine.',
+    dimensionsPresets: [
+      { name: 'Pendant / Ring Orb (90mm)', size: '90 mm Diameter Sphere', baseMult: 0.85 },
+      { name: 'Standard Necklace Orb (110mm)', size: '110 mm Diameter Sphere', baseMult: 1.0 },
+      { name: 'Grand Timepiece Orb (140mm)', size: '140 mm Diameter Sphere', baseMult: 1.45 },
+      { name: 'Bespoke Scaled CAD', size: 'Calibrated to your exact jewel dimensions', baseMult: 1.2 }
+    ],
+    substrateOptions: [
+      { name: 'Amethyst Velvet Composite (3.2mm)', priceAdd: 85.00, color: '#3D214F' },
+      { name: 'Obsidian Velvet Soft-Touch (3.2mm)', priceAdd: 65.00, color: '#18191D' },
+      { name: 'Rose Quartz Shimmer Composite (3.2mm)', priceAdd: 95.00, color: '#D8A5A5' },
+      { name: 'Virgin Bone Cotton Composite (3.2mm)', priceAdd: 75.00, color: '#F4EFE6' }
+    ],
+    finishOptions: [
+      { id: 'rose-gold-resonance', name: 'Concentric Rose Gold Resonance Rings', cost: 45.00 },
+      { id: 'gold-crest', name: 'Champagne Gold Monogram Crest', cost: 38.00 },
+      { id: 'translucent-vitrine', name: 'Anti-Glare Frosted Suspended Vitrine', cost: 55.00 },
+      { id: 'magnetic-damped-lock', name: 'Precision Neodymium Magnetic Stop', cost: 32.00 }
+    ],
+    technicalSpecs: {
+      petalMechanics: '8-Axis Interlocking Geodesic Petals with Tension Dampers',
+      vitrineSuspension: 'Acoustic-grade tension membrane supporting up to 250g weight',
+      closure: 'Magnetic-assisted radial lock with tactile click',
+      corners: 'Seamless spherical compound curves with 0.2mm mechanical tolerance',
+      dropTest: 'Drop certified with internal suspension absorbing 1.2m impact',
+      sustainability: 'Engineered as a perpetual vanity heirloom'
+    },
+    idealFor: ['High Jewelry Necklaces & Pendants', 'Haute Horlogerie Timepieces', 'VIP Anniversary Unboxings', 'Luxury Bridal Keepsakes'],
+    matchingCaseStudy: 'aura-kinetic-lotus'
+  },
+  {
+    id: 'sku-plantable-seed',
+    slug: 'plantable-wildflower-vitrines',
+    name: 'Plantable Wildflower Vitrines',
+    headline: 'Deckle-edge seed-paper cylinder with ultra-clear acrylic crystal vitrine',
+    tag: 'Living Eco-Luxury',
+    basePrice: 165.00,
+    unitLabel: 'per set',
+    leadTime: '10–14 Days',
+    moq: 500,
+    heroImage: 'assets/images/aura_plantable_wildflower.jpg',
+    macroImage: 'assets/images/aura_plantable_wildflower.jpg',
+    desc: 'Handmade 100% tree-free cotton rag paper embedded with living wildflower seeds (Cosmos, Marigold, Sweet Alyssum) wrapped around a crystal-clear display cube with tear-away planting ritual.',
+    dimensionsPresets: [
+      { name: 'Petite Vitrine (65 × 65 × 85mm)', size: '65 × 65 × 85 mm', baseMult: 0.85 },
+      { name: 'Standard Vitrine (85 × 85 × 115mm)', size: '85 × 85 × 115 mm', baseMult: 1.0 },
+      { name: 'Sculptural Vitrine (120 × 120 × 160mm)', size: '120 × 120 × 160 mm', baseMult: 1.5 },
+      { name: 'Custom Mineral Sizing', size: 'Engineered to your gemstone cut', baseMult: 1.18 }
+    ],
+    substrateOptions: [
+      { name: 'Wildflower Seed-Embedded Cotton (320 GSM)', priceAdd: 0.00, color: '#F2EFEB' },
+      { name: 'Botanical Herb-Seed Pulp (Basil & Thyme)', priceAdd: 18.00, color: '#E8E4D8' },
+      { name: 'Terracotta Floral Petal Pulp (350 GSM)', priceAdd: 24.00, color: '#E5D2C5' }
+    ],
+    finishOptions: [
+      { id: 'blind-deboss-logo', name: 'Tactile Deep Blind Deboss Branding', cost: 18.00 },
+      { id: 'jute-seed-tag', name: 'Unbleached Jute Seed Tag with Planting Guide', cost: 12.00 },
+      { id: 'acrylic-cube', name: 'Ultra-Clear 3mm Optical Acrylic Vitrine', cost: 42.00 },
+      { id: 'organic-soil-pouch', name: 'Miniature Biodegradable Soil Seed Starter', cost: 28.00 }
+    ],
+    technicalSpecs: {
+      seedGermination: '88% certified germination rate in indoor and garden soil',
+      paperBase: '100% Post-Consumer Cotton Rag (Zero Wood Pulp)',
+      vitrineGrade: 'Museum-grade optically clear acrylic display cube with beveled edges',
+      closure: 'Tear-away deckle perforated band with unbleached jute string',
+      sustainability: '100% Biodegradable & Plantable (Leaves Zero Landfill Waste)'
+    },
+    idealFor: ['Raw Gemstone & Mineral Jewelry', 'Organic Botanical Skincare Sets', 'Sustainable Bridal Favors', 'Conscious Luxury D2C Brands'],
+    matchingCaseStudy: 'aura-plantable-wildflower'
+  },
+  {
+    id: 'sku-couture-trousseau',
+    slug: 'couture-trousseau-hampers',
+    name: 'Royal Bridal Trousseau Hampers',
+    headline: 'Grand presentation tray with miniature bridal lehenga mannequin & luxury suite',
+    tag: 'Haute Couture Gifting',
+    basePrice: 1450.00,
+    unitLabel: 'per hamper suite',
+    leadTime: '14–18 Days',
+    moq: 50,
+    heroImage: 'assets/images/royal_maharani_hamper.jpg',
+    macroImage: 'assets/images/royal_maharani_hamper.jpg',
+    desc: 'A breathtaking royal bridal presentation hamper framed in 1800 GSM Kappa board, wrapped in champagne & dusty rose sparkling tulle with miniature couture lehenga mannequin, velvet jewelry bolster, gold praline chest, and Banarasi potlis.',
+    dimensionsPresets: [
+      { name: 'Royal Intimate (380 × 280 × 130mm)', size: '380 × 280 × 130 mm', baseMult: 0.85 },
+      { name: 'Grand Maharani (520 × 380 × 160mm)', size: '520 × 380 × 160 mm', baseMult: 1.0 },
+      { name: 'Imperial Celebration (650 × 450 × 180mm)', size: '650 × 450 × 180 mm', baseMult: 1.6 },
+      { name: 'Bespoke Palace Dimensions', size: 'CAD tailored to your full trousseau suite', baseMult: 1.25 }
+    ],
+    substrateOptions: [
+      { name: 'Champagne Shimmer & Dusty Rose Tulle + 1800 GSM Base', priceAdd: 0.00, color: '#D8A5A5' },
+      { name: 'Royal Emerald Zari Brocade + Gold Tulle', priceAdd: 180.00, color: '#31523E' },
+      { name: 'Ivory Pearl & Metallic Gold Velvet', priceAdd: 220.00, color: '#F7F4EC' },
+      { name: 'Midnight Sapphire Silk Brocade', priceAdd: 195.00, color: '#1B2438' }
+    ],
+    finishOptions: [
+      { id: 'mini-mannequin', name: 'Bespoke Miniature Bridal Lehenga Gown Mannequin', cost: 380.00 },
+      { id: 'velvet-jewelry-bolster', name: 'Golden Silk Cushion + Velvet Jewelry Box', cost: 160.00 },
+      { id: 'praline-chest', name: '16-Cavity Gold Leaf Chocolate Praline Tray', cost: 120.00 },
+      { id: 'banarasi-potli', name: 'Pure Banarasi Brocade Potli with Pearl Jhumkas', cost: 95.00 },
+      { id: 'rose-gold-caddies', name: 'Dual Rose Gold Satin Scent/Tea Caddies', cost: 110.00 }
+    ],
+    technicalSpecs: {
+      structuralStrength: '1800 GSM Heavy Kappa Board Base (Supports up to 8kg contents)',
+      tulleDraping: 'Double-layered champagne micro-glitter veil with satin rosette',
+      velvetBolster: 'High-density foam core upholstered in pure golden mulberry silk',
+      finishing: 'Heated Champagne Gold leaf stamping on hamper collar and gift tags',
+      sustainability: '100% Keepsake Heirloom (Preserved by families for generations)'
+    },
+    idealFor: ['Destination Wedding Trousseau Suites', 'VIP Royal Wedding Invites', 'Luxury Festive Gifting (Diwali / Royal Eid)', 'Haute Couture Brand Ambassador Kits'],
+    matchingCaseStudy: 'royal-maharani-trousseau'
+  },
+  {
     id: 'sku-rigid-magnetic',
     slug: 'rigid-magnetic-boxes',
     name: 'Rigid Magnetic Boxes',
@@ -309,14 +638,14 @@ export const SKU_PRODUCTS = [
       { name: 'Bespoke CAD Dimension', size: 'Tailored to your product dimensions', baseMult: 1.15 }
     ],
     substrateOptions: [
+      { name: 'Amethyst Plum Velvet Soft-Touch (450 GSM)', priceAdd: 42.00, color: '#3D214F' },
       { name: 'Obsidian Velvet Soft-Touch (450 GSM)', priceAdd: 38.00, color: '#18191D' },
       { name: 'Virgin Cotton Uncoated (600 GSM)', priceAdd: 48.00, color: '#F4EFE6' },
-      { name: 'Natural Unbleached Kraft (350 GSM)', priceAdd: 18.00, color: '#C59F74' },
       { name: 'Forest Sage Woven Linen (380 GSM)', priceAdd: 58.00, color: '#4E5A4B' }
     ],
     finishOptions: [
+      { id: 'champagne-gold-foil', name: 'Champagne Gold Metallic Foil', cost: 28.00 },
       { id: 'copper-foil', name: 'Hot Stamped Copper Foil', cost: 28.00 },
-      { id: 'gold-foil', name: 'Champagne Gold Foil', cost: 28.00 },
       { id: 'blind-deboss', name: 'Deep Blind Deboss (0.8mm)', cost: 22.00 },
       { id: 'interior-print', name: 'Interior Spot Soy Print', cost: 18.00 }
     ],
@@ -391,12 +720,13 @@ export const SKU_PRODUCTS = [
       { name: 'Bespoke Scaled', size: 'CAD generated for your tray', baseMult: 1.15 }
     ],
     substrateOptions: [
+      { name: 'Amethyst Plum Velvet (450 GSM)', priceAdd: 36.00, color: '#3D214F' },
       { name: 'Obsidian Velvet Matte (450 GSM)', priceAdd: 32.00, color: '#18191D' },
       { name: 'Forest Sage Woven Linen (380 GSM)', priceAdd: 48.00, color: '#4E5A4B' },
       { name: 'Warm Bone Cotton Paper (600 GSM)', priceAdd: 42.00, color: '#F3EFE7' }
     ],
     finishOptions: [
-      { id: 'copper-foil', name: 'Hot Stamped Copper Crest', cost: 26.00 },
+      { id: 'champagne-foil', name: 'Hot Stamped Champagne Foil Crest', cost: 26.00 },
       { id: 'ribbon-pull', name: 'Custom Woven Grosgrain Ribbon', cost: 16.00 },
       { id: 'blind-deboss', name: 'Deep Blind Deboss on Sleeve', cost: 20.00 }
     ],
@@ -473,8 +803,8 @@ export const SKU_PRODUCTS = [
       { name: 'Midnight Charcoal Base (65 Micron)', priceAdd: 95.00, color: '#1B1C22' }
     ],
     finishOptions: [
+      { id: 'champagne-gold', name: 'Reflective Champagne Gold Foil', cost: 0.00 },
       { id: 'copper-foil', name: 'Brushed Hot Copper Foil Stamping', cost: 0.00 },
-      { id: 'gold-foil', name: 'Reflective Champagne Gold Foil', cost: 45.00 },
       { id: 'tamper-evident', name: 'Fiberglass Reinforced Cross-Grid', cost: 75.00 }
     ],
     technicalSpecs: {

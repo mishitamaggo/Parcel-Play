@@ -4,7 +4,7 @@ import { tactileAudio } from '../utils/audio.js?v=2.0';
 export function renderCaseStudiesPage(container, openAuditModal) {
   let currentFilter = 'All';
   let searchQuery = '';
-  const categories = ['All', 'Rigid Boxes', 'Corrugated Mailers', 'Molded Pulp & Trays', 'Foil Tape & Bands'];
+  const categories = ['All', 'Kinetic & Bloom', 'Plantable Eco-Luxury', 'Bridal & Festive Trousseau', 'Rigid Boxes', 'Corrugated Mailers', 'Molded Pulp & Trays', 'Foil Tape & Bands'];
 
   function getFilteredProjects() {
     return CASE_STUDIES.filter(p => {

@@ -5,7 +5,7 @@ export function renderMaterialLibraryPage(container, state, onAddToSampleKit) {
   let selectedSwatch = MATERIAL_SWATCHES[0];
   let currentCategory = 'All';
 
-  const categories = ['All', 'Paperboard', 'Corrugated', 'Molded Pulp', 'Hot Foils & Tape', 'Textile Wraps'];
+  const categories = ['All', 'Sculpted Resins & Composites', 'Botanical & Living Papers', 'Textiles & Couture Trims', 'Luxury Canisters & Metal', 'Paperboard', 'Corrugated', 'Molded Pulp', 'Hot Foils & Tape'];
 
   function getFilteredSwatches() {
     if (currentCategory === 'All') return MATERIAL_SWATCHES;

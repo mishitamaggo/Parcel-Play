@@ -7,9 +7,9 @@ export function renderFooter(container, openAuditModal) {
         <div class="footer-top-grid">
           <!-- Column 1: Studio & Description -->
           <div>
-            <h3 class="footer-brand-title">Parcel Play <span style="font-size: 0.85rem; font-weight: 500; color: var(--accent-copper-light);">(.in)</span></h3>
+            <h3 class="footer-brand-title">Parcel Play</h3>
             <p class="footer-brand-desc">
-              Custom packaging design studio and material house for Indian D2C & luxury brands. We engineer rigid Kappa boxes, fluted mailers, and zero-plastic pulp packaging with PAN-India delivery.
+              Bespoke packaging atelier and material studio engineering kinetic lotus reveal spheres, plantable botanical vitrines, and royal bridal trousseau hampers for luxury houses.
             </p>
             <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
               <span class="sub-tag" style="background: rgba(255,255,255,0.08); padding: 0.25rem 0.6rem; border-radius: 4px; border: 1px solid rgba(255,255,255,0.12); color: var(--accent-copper-light);">FSC Certified</span>
@@ -20,13 +20,13 @@ export function renderFooter(container, openAuditModal) {
 
           <!-- Column 2: Packaging Solutions -->
           <div>
-            <h4 class="footer-col-title">Packaging SKUs (INR ₹)</h4>
+            <h4 class="footer-col-title">Masterpiece SKUs (INR ₹)</h4>
             <ul class="footer-nav-list">
+              <li><a href="#/sku/kinetic-lotus-spheres">Kinetic Lotus Bloom Spheres</a></li>
+              <li><a href="#/sku/plantable-wildflower-vitrines">Plantable Wildflower Vitrines</a></li>
+              <li><a href="#/sku/couture-trousseau-hampers">Royal Bridal Trousseau Hampers</a></li>
               <li><a href="#/sku/rigid-magnetic-boxes">Rigid Magnetic Boxes</a></li>
-              <li><a href="#/sku/corrugated-mailers">Corrugated Mailers</a></li>
               <li><a href="#/sku/precision-slide-drawers">Precision Slide Drawers</a></li>
-              <li><a href="#/sku/molded-cellulose-trays">Molded Cellulose Trays</a></li>
-              <li><a href="#/sku/custom-foil-tape">Custom Foil Sealing Tape</a></li>
             </ul>
           </div>
 
@@ -60,7 +60,7 @@ export function renderFooter(container, openAuditModal) {
         <!-- Bottom Row -->
         <div class="footer-bottom-row">
           <div>
-            © 2026 Parcel Play Packaging Studio Pvt. Ltd. (parcelplay.in). GST Registered.
+            © 2026 Parcel Play Packaging Atelier Pvt. Ltd. All rights reserved.
           </div>
           <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
             <span>Bengaluru</span>

@@ -19,18 +19,25 @@ import { renderProductDetailPage } from './pages/ProductDetailPage.js?v=2.0';
 const appState = {
   sampleKit: [
     {
-      id: 'obsidian-soft-touch',
-      name: 'Obsidian Velvet Board',
-      category: 'Paperboard',
-      weight: '450 GSM',
-      textureImage: 'assets/images/swatch_obsidian.jpg'
+      id: 'amethyst-velvet-composite',
+      name: 'Amethyst Velvet Composite',
+      category: 'Sculpted Resins',
+      weight: '3.2mm Wall',
+      textureImage: 'assets/images/aura_lotus_bloom.jpg'
     },
     {
-      id: 'copper-hot-foil-tape',
-      name: 'Brushed Copper Foil Tape',
-      category: 'Hot Foils & Tape',
-      weight: '65 Micron Heavy-Duty',
-      textureImage: 'assets/images/macro_tape.jpg'
+      id: 'wildflower-seed-cotton',
+      name: 'Wildflower Seed Paper',
+      category: 'Living Papers',
+      weight: '320 GSM',
+      textureImage: 'assets/images/aura_plantable_wildflower.jpg'
+    },
+    {
+      id: 'banarasi-gold-brocade',
+      name: 'Banarasi Brocade & Tulle',
+      category: 'Textiles & Trims',
+      weight: '420 GSM',
+      textureImage: 'assets/images/royal_maharani_hamper.jpg'
     }
   ]
 };
@@ -121,11 +128,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Dedicated Packaging SKU Pages
     '/sku/:slug': (container, params) => renderProductDetailPage(
       container,
-      params ? params.slug : 'rigid-magnetic-boxes',
+      params ? params.slug : 'kinetic-lotus-spheres',
       appState,
       handleAddToSampleKit,
       () => auditModal.open()
     ),
+    '/sku/kinetic-lotus-spheres': (container) => renderProductDetailPage(container, 'kinetic-lotus-spheres', appState, handleAddToSampleKit, () => auditModal.open()),
+    '/sku/plantable-wildflower-vitrines': (container) => renderProductDetailPage(container, 'plantable-wildflower-vitrines', appState, handleAddToSampleKit, () => auditModal.open()),
+    '/sku/couture-trousseau-hampers': (container) => renderProductDetailPage(container, 'couture-trousseau-hampers', appState, handleAddToSampleKit, () => auditModal.open()),
     '/sku/rigid-magnetic-boxes': (container) => renderProductDetailPage(container, 'rigid-magnetic-boxes', appState, handleAddToSampleKit, () => auditModal.open()),
     '/sku/corrugated-mailers': (container) => renderProductDetailPage(container, 'corrugated-mailers', appState, handleAddToSampleKit, () => auditModal.open()),
     '/sku/precision-slide-drawers': (container) => renderProductDetailPage(container, 'precision-slide-drawers', appState, handleAddToSampleKit, () => auditModal.open()),
